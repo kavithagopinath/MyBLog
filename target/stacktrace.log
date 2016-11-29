@@ -711,3 +711,123 @@ Caused by: org.codehaus.groovy.grails.web.taglib.exceptions.GrailsTagException: 
 	at grails.util.CacheEntry.getValue(CacheEntry.java:144)
 	at grails.util.CacheEntry.getValue(CacheEntry.java:84)
 	... 3 more
+2016-11-29 09:21:14,029 [FileSystemWatcher: files=#114 cl=groovy.lang.GroovyClassLoader@6fa3703] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "UrlMappings$__clinit__closure1$$DQ3xCM9C"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1116)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:396)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+2016-11-29 09:21:14,036 [FileSystemWatcher: files=#114 cl=groovy.lang.GroovyClassLoader@6fa3703] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "UrlMappings$__clinit__closure1$$DQ3xCM9C"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2016-11-29 09:21:14,037 [FileSystemWatcher: files=#114 cl=groovy.lang.GroovyClassLoader@6fa3703] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "UrlMappings$__clinit__closure1$$DQ3xCM9C"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2016-11-29 09:21:14,037 [FileSystemWatcher: files=#114 cl=groovy.lang.GroovyClassLoader@6fa3703] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "UrlMappings$__clinit__closure1$$DQ3xCM9C"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2016-11-29 09:21:14,100 [FileSystemWatcher: files=#114 cl=groovy.lang.GroovyClassLoader@6fa3703] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "UrlMappings$$DQ3xCM99"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1116)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:396)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+2016-11-29 09:21:14,100 [FileSystemWatcher: files=#114 cl=groovy.lang.GroovyClassLoader@6fa3703] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "UrlMappings$$DQ3xCM99"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2016-11-29 09:21:14,101 [FileSystemWatcher: files=#114 cl=groovy.lang.GroovyClassLoader@6fa3703] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "UrlMappings$$DQ3xCM99"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2016-11-29 09:21:14,101 [FileSystemWatcher: files=#114 cl=groovy.lang.GroovyClassLoader@6fa3703] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "UrlMappings$$DQ3xCM99"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2016-11-29 09:36:01,306 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException: URL mapping must either provide redirect information, a controller or a view name to map to!
+	at org.springframework.util.Assert.isTrue(Assert.java:65)
+	at org.codehaus.groovy.grails.web.mapping.DefaultUrlMappingInfo.<init>(DefaultUrlMappingInfo.java:95)
+	at org.codehaus.groovy.grails.web.mapping.RegexUrlMapping.createUrlMappingInfo(RegexUrlMapping.java:653)
+	at org.codehaus.groovy.grails.web.mapping.RegexUrlMapping.match(RegexUrlMapping.java:265)
+	at org.codehaus.groovy.grails.web.mapping.DefaultUrlMappingsHolder.matchAll(DefaultUrlMappingsHolder.java:495)
+	at sun.reflect.GeneratedMethodAccessor208.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1276)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:201)
+	at com.sun.proxy.$Proxy32.matchAll(Unknown Source)
+	at org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter.doFilterInternal(UrlMappingsFilter.java:155)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.codehaus.groovy.grails.web.servlet.mvc.GrailsWebRequestFilter.doFilterInternal(GrailsWebRequestFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.codehaus.groovy.grails.web.filters.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:67)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:344)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:261)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2016-11-29 09:36:01,308 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException: URL mapping must either provide redirect information, a controller or a view name to map to!
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2016-11-29 09:36:01,369 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException: URL mapping must either provide redirect information, a controller or a view name to map to!
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2016-11-29 09:36:01,369 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
+java.lang.IllegalArgumentException: URL mapping must either provide redirect information, a controller or a view name to map to!
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
